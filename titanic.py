@@ -14,7 +14,7 @@ warnings.filterwarnings("ignore")
 
 
 titanic_data = pd.read_csv("titanic.csv")
-titanic_data.head()
+#titanic_data.head()
 
 
 # In[39]:
@@ -42,7 +42,7 @@ titanic_data.isnull().sum()
 #Data Visualization 
 import matplotlib.pyplot as plt,seaborn as sns
 titanic_data["Age"].plot.hist()
-plt.show()
+#plt.show()
 
 
 # In[43]:

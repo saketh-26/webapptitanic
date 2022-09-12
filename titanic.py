@@ -33,7 +33,7 @@ titanic_data.isnull().sum()
 # In[41]:
 
 
-print("No of passengers travelling in ship or in original data:"+str(len(titanic_data)))
+#print("No of passengers travelling in ship or in original data:"+str(len(titanic_data)))
 
 
 # In[42]:
@@ -49,14 +49,14 @@ plt.show()
 
 
 sns.boxplot(x="Embarked",y="Age",data=titanic_data)
-plt.show()
+#plt.show()
 
 
 # In[44]:
 
 
 sns.boxplot(x="Sex",y="Age",data=titanic_data)
-plt.show()
+#plt.show()
 
 
 # In[45]:
@@ -251,19 +251,19 @@ predictions = logmodel.predict(X_test)
 
 #Metrics
 from sklearn.metrics import accuracy_score,classification_report,confusion_matrix
-print(accuracy_score(y_test,predictions)*100)
+#print(accuracy_score(y_test,predictions)*100)
 
 
 # In[31]:
 
 
-print(confusion_matrix(y_test,predictions))
+#print(confusion_matrix(y_test,predictions))
 
 
 # In[32]:
 
 
-print(classification_report(y_test,predictions))
+#print(classification_report(y_test,predictions))
 
 
 # In[33]:
